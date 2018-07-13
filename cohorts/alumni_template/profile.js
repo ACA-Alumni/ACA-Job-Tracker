@@ -8,10 +8,10 @@ let alumni_template = { // 👈 Your_name replace here...
   portfolio: '', // portfolio url
   projects: [
     {
-      name: 'ACA-Job-Tracker'
-      link: 'https://aca-alumni.github.io/ACA-Job-Tracker' // project url
-      github: 'https://github.com/ACA-Alumni/ACA-Job-Tracker' // github repository url
-      summary: '...loads of fun!' // 2-3 sentences max.
+      name: 'ACA-Job-Tracker',
+      link: 'https://aca-alumni.github.io/ACA-Job-Tracker', // project url
+      github: 'https://github.com/ACA-Alumni/ACA-Job-Tracker', // github repository url
+      summary: '...loads of fun!', // 2-3 sentences max.
       tools: [
         'html',
         'css',
@@ -19,13 +19,13 @@ let alumni_template = { // 👈 Your_name replace here...
       ],
     },
     {
-      name: ''
-      link: '' // project url
-      github: '' // github repository url
-      summary: '' // 2-3 sentences max.
+      name: '',
+      link: '', // project url
+      github: '', // github repository url
+      summary: '', // 2-3 sentences max.
       tools: [
-        '',
-      ],
+        ''
+      ]
     }
     // add more objects as needed.
   ],
@@ -34,14 +34,14 @@ let alumni_template = { // 👈 Your_name replace here...
     twitter: '', // username/handle. ⚠️ Not required
   },
   checkpoint_status: {
-    resume: null
-    project1: null
-    project2: null
-    portfolio: null
-    hosting: null
-    linkedIn: null
-    Algorithms: null
-    pair_programming: null
+    resume: null,
+    project1: null,
+    project2: null,
+    portfolio: null,
+    hosting: null,
+    linkedIn: null,
+    Algorithms: null,
+    pair_programming: null,
     job: null
   }
 
