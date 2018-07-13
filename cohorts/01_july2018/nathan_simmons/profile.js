@@ -33,8 +33,7 @@ let nathan_simmons = { // 👈 Your_name replace here...
       // add more objects as needed.
     ],
     other_contact_info: {
-      codePen: '', // acount url ⚠️ Not required
-      twitter: '', // username/handle. ⚠️ Not required
+      npm: 'https://www.npmjs.com/~nhbs'
     },
     checkpoint_status: {
       resume: null
