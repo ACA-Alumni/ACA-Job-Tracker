@@ -1,0 +1,20 @@
+.btn1 {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 3px;
+  background-color: rgba(76,113,180,0.31);
+  border: 2px solid rgba(76,113,180,0.71);
+}
+.num {
+  background-color: rgba(0,0,0,0.25);
+  margin: 2px;
+}
+.fizzBuzz {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 3px;
+  background-color: rgba(176,13,180,0.31);
+  border: 2px solid rgba(176,13,180,0.71);
+}
