@@ -8,7 +8,8 @@ var _alumni = [
   {
     class_name: '01_july2018'
     alumni: [
-      'Ty Sweet'
+      'nathan_simmons',
+      'ty_sweet'
     ]
   }
 

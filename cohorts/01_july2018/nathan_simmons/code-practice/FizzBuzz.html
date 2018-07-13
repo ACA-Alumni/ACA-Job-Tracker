@@ -1,0 +1,39 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+</head>
+  <body>
+    <h3>FizzBuzz</h3>
+    
+    <button onClick='run()'>run</button>
+    <div id='output'></div>
+  </body>
+</html>
+<script>
+
+// “Write a script, or function, that prints out every number from 0-100. 
+// However, if that number is devisable by 3, print “Fizz” instead. 
+// Also, if the number is devisable by 5, print “Buzz” instead. 
+// AND, If the number is devisable by both 3 and 5, print “FizzBuzz”.” 
+
+run = function(){
+ 
+  var output = document.getElementById('output')
+
+    for(let i = 1; i <= 100; i++){
+        if (i%15 === 0) {
+            output.innerHTML += `<div>FizzBuzz</div>`
+        } else if (i%3 === 0){
+            output.innerHTML += `<div>Fizz</div>`
+        } else if (i%5 === 0){
+            output.innerHTML += `<div>Buzz</div>`
+        } else {
+            output.innerHTML += `<div>${i}</div>`
+        }
+    }
+}
+
+
+</script>
+
+<!-- *** NOTES ***
+
+-->
