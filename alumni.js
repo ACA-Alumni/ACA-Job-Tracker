@@ -2,7 +2,8 @@ var _alumni = [
   {
     class_name: '00_may2018',
     alumni: [
-      "krista_kannen"
+      'wilhem_oliva'
+      'krista_kannen'
     ]
   },
   {
