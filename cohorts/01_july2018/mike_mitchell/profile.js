@@ -14,8 +14,7 @@ let alumni_template = { // 👈 mike_mitchell
       summary: '...loads of fun!' // 2-3 sentences max.
       tools: [
         'html',
-        'css',
-        '...'
+        'css'
       ],
     },
     {
