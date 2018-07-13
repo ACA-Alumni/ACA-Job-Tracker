@@ -1,20 +1,21 @@
 var alumni_template = { // 👈 Your_name replace here...
-  first_name: '',
-  last_name: '',
-  email: '',
-  github: '', // acount url
-  github_username: '',
-  linkedIn: '',
+  first_name: 'Shay',
+  last_name: 'Hoffman',
+  email: 'shayhoffman@gmail.com',
+  github: 'https://github.com/shayhoffman', // acount url
+  github_username: 'shayhoffman',
+  linkedIn: 'https://www.linkedin.com/in/shay-hoffman-89600a151/',
   portfolio: '', // portfolio url
   projects: [
     {
-      name: ''
-      link: '' // project url
-      github: '' // github repository url
+      name: 'ACA-Job-Tracker'
+      link: 'https://aca-alumni.github.io/ACA-Job-Tracker' // project url
+      github: 'https://github.com/ACA-Alumni/ACA-Job-Tracker' // github repository url
       summery: '' // 2-3 sentences max.
       tools: [
-        'name of tool',
-        'another name of tool'
+        'html',
+        'css',
+        'Javascript'
       ],
     },
     {
