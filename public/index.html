@@ -1,0 +1,40 @@
+<!DOCTYPE html><html>
+<head>
+  <title> Job Tracker </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=0.70 maximum-scale=0.70">
+  <link rel="shortcut icon" href="images/logo.png"/>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <div class='top-navbar'>
+    <img src="images/logo.png" alt="ACA" class='top-navbar-logo pad5'>
+    <div class='top-navbar-title' onclick='_page("page_home")' name='page_home'>
+      Job Tracker
+    </div>
+    <div class='top-navbar-btns'>
+      <div class='inline top-navbar-btn' onclick='_page("page_jobs")' name='page_jobs'>
+        Jobs
+      </div>
+      <div class='inline top-navbar-btn active' onclick='_page("page_cohorts")' name='page_cohorts'>
+        Cohorts
+      </div>
+    </div>
+  </div>
+
+  <div id='page_home' class='main-body pad5' style='display: block'>Home</div>
+  <div id='page_jobs' class='main-body pad5' style='display: none'>jobs</div>
+  <div id='page_cohorts' class='main-body pad5' style='display: none'>cohorts</div>
+
+</body>
+<!-- JavaScript Pages -->
+<script type="text/javascript" src='pages/page_home.js'></script>
+<script type="text/javascript" src='pages/page_jobs.js'></script>
+<script type="text/javascript" src='pages/page_cohorts.js'></script>
+<!-- *Other JavaScript -->
+<script type="text/javascript" src='js/pages.js'></script>
+<script type="text/javascript" src='js/main.js'></script>
+<script type="text/javascript" src='http://localhost:58192/livereload.js'></script>
+</html>

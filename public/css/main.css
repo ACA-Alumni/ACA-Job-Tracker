@@ -1,0 +1,56 @@
+body {
+  font-family: Avenir;
+  color: #333;
+  background: url('../images/dust_scratches.png');
+  margin: 0px;
+  min-width: 28em;
+}
+
+.top-navbar {
+  position: relative;
+  font-size: 25px;
+  background: rgba(0,0,0,0.2);
+  height: 50px;
+}
+
+.top-navbar-logo {
+  height: 40px;
+}
+
+.top-navbar-title {
+  display: inline;
+  position: relative;
+  top: -17px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.top-navbar-btns {
+  position: absolute;
+  top: 0px; right: 5px; bottom: 0px;
+}
+
+.top-navbar-btn {
+  line-height: 50px;
+  padding: 8px 10px 8px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.top-navbar-btn:hover {
+  background-color: rgba(255,255,255,0.15);
+}
+
+/* * * * * * * COMMONLY USED STYLE * * * * * * */
+
+.pad5 {
+  padding: 5px;
+}
+
+.inline {
+  display: inline;
+}
