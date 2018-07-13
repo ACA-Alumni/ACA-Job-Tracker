@@ -11,19 +11,20 @@ let ty_sweet = { // 👈 Your_name replace here...
       name: 'ACA-Job-Tracker'
       link: 'https://aca-alumni.github.io/ACA-Job-Tracker' // project url
       github: 'https://github.com/ACA-Alumni/ACA-Job-Tracker' // github repository url
-      summary: '' // 2-3 sentences max.
+      summary: 'Ever so much fun!' // 2-3 sentences max.
       tools: [
         'HTML',
         'JavaScript'
       ],
     },
     {
-      name: ''
+      name: 'My-App'
       link: '' // project url
-      github: '' // github repository url
-      summary: '' // 2-3 sentences max.
+      github: 'https://github.com/tysweet/myApp' // github repository url
+      summary: 'A freaking awesome site about telling people to fudge off!  Very edgy stuff...' // 2-3 sentences max.
       tools: [
-        '',
+        'JavaScript',
+        'React'
       ],
     }
     // add more objects as needed.
