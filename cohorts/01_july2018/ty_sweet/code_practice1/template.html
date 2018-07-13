@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+
+<style media="screen">
+
+  body {
+    background-color: rgba(0,0,0,0.2);
+  }
+  
+</style>
+
+</head>
+  <body>
+    <h3>template</h3>
+    Input:
+    <input id='input' style='width: 100%;'>
+    <button onClick='run()'>run</button>
+    <div id='output'></div>
+  </body>
+</html>
+
+<script>
+
+run = function(){
+  var input = document.getElementById('input').value
+  var output = document.getElementById('output')
+  output.innerHTML = input
+}
+
+</script>
+
+<!-- *** NOTES ***
+
+-->
