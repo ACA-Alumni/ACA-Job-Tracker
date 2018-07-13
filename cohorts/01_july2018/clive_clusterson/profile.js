@@ -1,11 +1,11 @@
 let alumni_template = { // 👈 Your_name replace here...
-  first_name: '',
-  last_name: '',
-  email: '',
-  github: '', // acount url
-  github_username: '',
-  linkedIn: '',
-  portfolio: '', // portfolio url
+  first_name: 'Clive',
+  last_name: 'Clusterson',
+  email: 'cliveclusterson@gmail.com',
+  github: null, // acount url
+  github_username: null,
+  linkedIn: null,
+  portfolio: null, // portfolio url
   projects: [
     {
       name: 'ACA-Job-Tracker'
@@ -15,23 +15,13 @@ let alumni_template = { // 👈 Your_name replace here...
       tools: [
         'html',
         'css',
-        '...'
+        'JavaScript'
       ],
     },
-    {
-      name: ''
-      link: '' // project url
-      github: '' // github repository url
-      summary: '' // 2-3 sentences max.
-      tools: [
-        '',
-      ],
-    }
-    // add more objects as needed.
   ],
   other_contact_info: {
-    codePen: '', // acount url ⚠️ Not required
-    twitter: '', // username/handle. ⚠️ Not required
+    codePen: null, // acount url ⚠️ Not required
+    twitter: '@CliveClusterson', // username/handle. ⚠️ Not required
   },
   checkpoint_status: {
     resume: null
