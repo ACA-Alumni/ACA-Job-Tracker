@@ -1,0 +1,47 @@
+.cohorts-title {
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    font-weight: 100;
+    color: rgba(0,0,0,0.7);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+#cohorts-container {
+    margin: 20px;
+}
+.cohorts-cohorts {
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    max-width: 900px;
+    font-size: 30px;
+    font-color: rgba(0,0,0,0.5);
+    background-color: rgba(184,134,11,0.6);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    transition: box-shadow .25s, background-color .25s;
+    cursor: pointer;
+}
+.cohorts-cohorts:hover {
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.5);
+    background-color: rgba(184,134,11,0.7);
+    transition: box-shadow .25s, background-color .25s;
+}
+.cohorts-table {
+    width: 100%;
+    border-spacing: 0px;
+}
+.cohorts-columns > th {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.cohorts-columns {
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 2px black;
+}
+.cohorts-class-column {
+    width: 50%;
+    text-align: left;
+}
+.cohorts-column-center {
+    text-align: center;
+}

@@ -1,13 +1,15 @@
 var _alumni = [
   {
-    class_name: '00_may2018',
+    class_name: 'may_2018',
+    class_number: '00',
     alumni: [
-      'wilhem_oliva'
+      'wilhem_oliva',
       'krista_kannen'
     ]
   },
   {
-    class_name: '01_july2018',
+    class_name: 'july_2018',
+    class_number: '01',
     alumni: [
       'todd_frederking',
       'clive_clusterson',
@@ -17,5 +19,4 @@ var _alumni = [
       'ty_sweet'
     ]
   }
-
 ]
