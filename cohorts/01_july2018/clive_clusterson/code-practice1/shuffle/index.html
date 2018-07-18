@@ -3,14 +3,15 @@
 body {
   background-color: rgba(0,0,0,0.2);
 }
+img {
+  width: 40px;
+}
 </style>
 
 </head>
   <body>
-    <h3> Shuffle! </h3>
-    Input:
-    <input id='input' style='width: 100%;'>
     <button onClick='shuffle()'> shuffle </button>
+    <br><br>
     <div id='output'></div>
   </body>
 </html>
@@ -18,8 +19,8 @@ body {
 <script>
 
 function shuffle(){
-  var input = document.getElementById('input').value
   var output = document.getElementById('output')
+  output.innerHTML = ""
   let shuffled = []
   let len = deck.length
   for (let i = 0; i < len; i++) {
@@ -27,8 +28,16 @@ function shuffle(){
     shuffled.push(deck[card])
     deck.splice(card, 1)
   }
-  output.innerHTML = shuffled
+  // output.innerHTML = shuffled
+  console.log()
+
   deck = shuffled
+  for (const card of deck) {
+    output.innerHTML += /*html*/`
+      <img src="cards/${card}.svg">
+    `
+  }
+ 
 }
 
 let deck = [
