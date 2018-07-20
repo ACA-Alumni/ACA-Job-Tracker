@@ -9,6 +9,7 @@ _page_cohorts = (page = document.getElementById('page_cohorts'))=>{
   for (const cohort of _alumni) {
     let pretty_name = cohort.class_name.split('_').join(" ")
     pretty_name = _upper1(pretty_name);
+
     cohorts_container.innerHTML += /*html*/`
       <div class='cohorts-cohorts' id='${cohort.class_name}'
         onclick='select_cohort(${cohort.class_name})'> 
@@ -26,14 +27,13 @@ _page_cohorts = (page = document.getElementById('page_cohorts'))=>{
         </table>
       </div>
     `
+
   }
 
   select_cohort = (cohort)=>{
     const alumni = _alumni.filter( x => x.class_name === cohort.id)[0]
-    console.log('Class', alumni)
-    for (const alum of alumni.alumni) {
-      console.log(_upperAll(alum))
-    }
+    _page("page_cohort")
+    _page_cohort(alumni)
   }
 
 }
