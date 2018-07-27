@@ -37,6 +37,8 @@ _GET(demo, (data)=>{
       <hr>
       <h3> ${row.gsx$name.$t} </h3>
       (${row.gsx$type.$t}) from <strong> ${row.gsx$city.$t} </strong>
+      <h3>${JSON.stringify(row.gsx$data.$t)}</h3>
+      <img src='${row.gsx$image.$t}'></img>
     `
   }
 })
